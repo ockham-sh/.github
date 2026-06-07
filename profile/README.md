@@ -38,55 +38,45 @@ A connector is just an `async` Python function that returns a typed result with 
 <table>
 <tr>
 <td width="50%" valign="top">
-
-<a href="https://github.com/ockham-sh/parsimony">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=ockham-sh&repo=parsimony&theme=github_dark&hide_border=true&description_lines_count=2&icon_color=4c6ef5&title_color=4c6ef5" />
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ockham-sh&repo=parsimony&hide_border=true&description_lines_count=2&icon_color=4c6ef5&title_color=4c6ef5" alt="parsimony" />
-  </picture>
-</a>
-
-<sub>The kernel: typed connectors + a hybrid-search catalog.</sub><br/>
-<code>pip install parsimony-core</code>
-
+<h3><a href="https://github.com/ockham-sh/parsimony">parsimony</a></h3>
+<p>The kernel: typed data connectors and a portable hybrid-search catalog (BM25 + vectors).</p>
+<p>
+<a href="https://pypi.org/project/parsimony-core/"><img src="https://img.shields.io/pypi/v/parsimony-core?style=flat-square&label=PyPI&color=4c6ef5" alt="PyPI" /></a>
+<img src="https://img.shields.io/github/stars/ockham-sh/parsimony?style=flat-square&color=4c6ef5&label=stars" alt="Stars" />
+<img src="https://img.shields.io/github/license/ockham-sh/parsimony?style=flat-square&color=4c6ef5" alt="License" />
+</p>
+<p><code>pip install parsimony-core</code></p>
 </td>
 <td width="50%" valign="top">
-
-<a href="https://github.com/ockham-sh/parsimony-connectors">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=ockham-sh&repo=parsimony-connectors&theme=github_dark&hide_border=true&description_lines_count=2&icon_color=4c6ef5&title_color=4c6ef5" />
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ockham-sh&repo=parsimony-connectors&hide_border=true&description_lines_count=2&icon_color=4c6ef5&title_color=4c6ef5" alt="parsimony-connectors" />
-  </picture>
-</a>
-
-<sub>FRED, SDMX, FMP, SEC EDGAR, BLS, EIA, central banks, and more.</sub><br/>
-<code>pip install parsimony-fred</code>
-
+<h3><a href="https://github.com/ockham-sh/parsimony-connectors">parsimony-connectors</a></h3>
+<p>Ready-made connectors: FRED, SDMX, FMP, SEC EDGAR, BLS, EIA, central banks, and more. Each ships as its own package.</p>
+<p>
+<img src="https://img.shields.io/badge/PyPI-per--package-4c6ef5?style=flat-square" alt="PyPI per package" />
+<img src="https://img.shields.io/github/stars/ockham-sh/parsimony-connectors?style=flat-square&color=4c6ef5&label=stars" alt="Stars" />
+<img src="https://img.shields.io/github/license/ockham-sh/parsimony-connectors?style=flat-square&color=4c6ef5" alt="License" />
+</p>
+<p><code>pip install parsimony-fred</code></p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-
-<a href="https://github.com/ockham-sh/parsimony-agents">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=ockham-sh&repo=parsimony-agents&theme=github_dark&hide_border=true&description_lines_count=2&icon_color=4c6ef5&title_color=4c6ef5" />
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ockham-sh&repo=parsimony-agents&hide_border=true&description_lines_count=2&icon_color=4c6ef5&title_color=4c6ef5" alt="parsimony-agents" />
-  </picture>
-</a>
-
-<sub>An agent that writes and runs Python to analyze the data.</sub><br/>
-<code>pip install parsimony-agents</code>
-
+<h3><a href="https://github.com/ockham-sh/parsimony-agents">parsimony-agents</a></h3>
+<p>An AI agent that writes and executes Python to analyze the data those connectors return.</p>
+<p>
+<a href="https://pypi.org/project/parsimony-agents/"><img src="https://img.shields.io/pypi/v/parsimony-agents?style=flat-square&label=PyPI&color=4c6ef5" alt="PyPI" /></a>
+<img src="https://img.shields.io/github/stars/ockham-sh/parsimony-agents?style=flat-square&color=4c6ef5&label=stars" alt="Stars" />
+<img src="https://img.shields.io/github/license/ockham-sh/parsimony-agents?style=flat-square&color=4c6ef5" alt="License" />
+</p>
+<p><code>pip install parsimony-agents</code></p>
 </td>
 <td width="50%" valign="top">
-
-<a href="https://ockham.sh">
-  <img src="https://img.shields.io/badge/Ockham_Terminal-coming_soon-64748b?style=for-the-badge&labelColor=1e293b" alt="Ockham Terminal — coming soon" />
-</a>
-
-<br/><br/>
-<sub>The analyst workspace built on the stack: an embedded coding agent does the work while you direct and review, every artifact saved with full lineage. Open-core (AGPL-3.0 + enterprise edition).</sub>
-
+<h3>Ockham Terminal &nbsp;<img src="https://img.shields.io/badge/coming_soon-64748b?style=flat-square" alt="coming soon" /></h3>
+<p>The analyst workspace built on the stack: an embedded coding agent does the work while you direct and review, with every dataset, chart, and report saved with full lineage.</p>
+<p>
+<img src="https://img.shields.io/badge/model-open--core-64748b?style=flat-square" alt="open-core" />
+<img src="https://img.shields.io/badge/core-AGPL--3.0-64748b?style=flat-square" alt="AGPL-3.0 core" />
+</p>
+<p><a href="https://ockham.sh">ockham.sh →</a></p>
 </td>
 </tr>
 </table>
