@@ -1,0 +1,28 @@
+name: Bug Report
+description: Report a bug in an Ockham project
+labels: ["bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What happened, and what did you expect to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Minimal steps or code to trigger the problem.
+      render: shell
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Package or app version (and Python version, if relevant).
+      placeholder: "e.g. parsimony-core 0.7.0, Python 3.12"
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Logs, environment, or anything else that helps.
