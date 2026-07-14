@@ -4,7 +4,7 @@
 
 **Agent-native infrastructure for financial and economic data analysis.**
 
-Ockham builds the open data layer and agent framework that let an AI do real analytical work over financial and economic data: typed connectors, a portable search catalog, and an agent that writes and runs its own code to turn questions into auditable datasets, charts, and reports.
+Ockham builds an open data layer and agent framework for financial and economic analysis. An agent fetches data from many sources through one interface and analyzes it by writing and running Python. Every result keeps the code and data that produced it, so the work can be checked and refreshed.
 
 </div>
 
@@ -12,7 +12,7 @@ Ockham builds the open data layer and agent framework that let an AI do real ana
 
 | Project | What it is | Install |
 | --- | --- | --- |
-| [**parsimony**](https://github.com/ockham-sh/parsimony) | The kernel: typed data connectors and a hybrid-search catalog | `pip install parsimony-core` |
-| [**parsimony-connectors**](https://github.com/ockham-sh/parsimony-connectors) | Ready-made connectors (FRED, SDMX, FMP, SEC EDGAR, BLS, EIA, central banks, and more) | `pip install parsimony-fred` |
-| [**parsimony-agents**](https://github.com/ockham-sh/parsimony-agents) | An AI agent that writes and runs Python to analyze the data | `pip install parsimony-agents` |
+| [**parsimony**](https://github.com/ockham-sh/parsimony) | The framework: one interface for agents to find and fetch data | `pip install parsimony-core` |
+| [**parsimony-connectors**](https://github.com/ockham-sh/parsimony-connectors) | Ready-made connectors: FRED, SDMX, SEC EDGAR, BLS, EIA, central banks, and more | `pip install parsimony-fred` |
+| [**parsimony-agents**](https://github.com/ockham-sh/parsimony-agents) | Extensible agent for data discovery, analysis, and visualization | `pip install parsimony-agents` |
 | **Ockham Terminal** _(coming soon)_ | The analyst workspace built on the stack |  |
